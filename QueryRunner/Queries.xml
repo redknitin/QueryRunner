@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<queries>
+  <!-- All query nodes must have a name attribute and an inner SQL. Columns defined as expressions must have an alias -->
+  <query name="Current Date">
+    select GETDATE() curr_date
+  </query>
+  <query name="Current Date">
+    select GETDATE()+1 tomorrow_date
+  </query>
+</queries>
